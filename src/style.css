@@ -1,0 +1,99 @@
+body {
+    background-color: #f7f7f7; 
+    background-image: linear-gradient(135deg, #ffcccc, #cc99ff); 
+    color: #333; 
+    font-family: 'Roboto', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    background-color: #007bff; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    color: #fff; 
+    padding: 15px 0; 
+    text-align: center; 
+}
+
+header .logo {
+    font-weight: bold; 
+    font-size: 1.6em; 
+    margin: 0; 
+}
+
+header nav {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+header a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+}
+
+header a:hover {
+    color: #ffcc00; 
+}
+
+.nav-btn {
+    background-color: #28a745; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.nav-btn:hover {
+    background-color: #218838; 
+}
+
+main {
+    padding: 50px 0; 
+}
+
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+.carta {
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.carta:hover {
+    transform: translateY(-5px); 
+}
+
+.carta h3 {
+    font-size: 1.5em; 
+    margin-top: 0; 
+}
+
+.carta p {
+    font-size: 1.1em; 
+    margin-bottom: 15px; 
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 15px 0; 
+    text-align: center; 
+}
+
+footer p {
+    margin: 0; 
+    padding: 0; 
+}
